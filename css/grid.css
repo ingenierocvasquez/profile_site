@@ -1,0 +1,157 @@
+/* Wifeframe */
+
+div #layout1, #layout2, #box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8   {
+    border: 1px solid rgba(48, 50, 202, 0.349);
+}
+
+
+.container {
+    height: auto;
+    width: 1024px;
+    margin: 0 auto;
+
+}
+
+
+#layout1 {
+    
+    height: 500px;
+    margin-top: 20px;
+    display: grid;
+    gap: 5px;
+    grid-template: 50% 50% / 70% 30%;
+  }
+
+#layout2 {
+    height: 500px;
+    margin-top: 20px;
+    display: grid;
+    gap: 5px;
+    grid-template: 50% 50% / 50% 25% 25%;
+  }
+
+.titulo {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.76);
+    font-size: 12px;
+    padding: 0px 20px;
+    
+  }
+
+.container div{
+    /*border: 2px solid rgba(15, 67, 119, 0.322);*/
+}
+
+#box1{
+    background-color: rgb(255, 255, 255);
+    background-image: url("../image/1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: auto;
+    grid-area: 1 / 1 / 3 / 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#box2{
+    background-color: rgb(13, 105, 101);
+    background-image: url("../image/2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: auto;
+    grid-area: 1 / 2 / 1 / 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#box3{
+    background-color: rgb(143, 110, 18);
+    background-image: url("../image/3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: auto;
+    grid-area: 2 / 2 / 2 / 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#box4{
+    background-color: rgb(255, 255, 255);
+    background-image: url("../image/1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: auto;
+    grid-area: 1 / 1 / 3 / 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#box5{
+    background-color: rgb(13, 105, 101);
+    background-image: url("../image/2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: auto;
+    grid-area: 1 / 2 / 1 / 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#box6{
+    background-color: rgb(143, 110, 18);
+    background-image: url("../image/3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: auto;
+    grid-area: 2 / 2 / 2 / 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+#box7{
+    background-color: rgb(143, 110, 18);
+    background-image: url("../image/1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: auto;
+    grid-area: 1 / 3 / 1 / 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+#box8{
+    background-color: rgb(143, 110, 18);
+    background-image: url("../image/3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: auto;
+    grid-area: 2 / 3 / 2 / 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+/*** header logo **/
+.header_logo{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 1em 0em;
+}
+
+.header_logo img{
+    margin: 1em;
+}

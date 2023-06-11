@@ -1,0 +1,168 @@
+/** Guias **/
+  div, header, nav, footer, li{
+   /*border: 1px solid #ff00008c;*/
+  }
+
+ /** Content **/ 
+ .container{
+    width: 1024px;
+ }
+
+/** Top Header **/
+#top_header{
+    display: flex;
+    justify-content: center;
+    background: #000;
+    color: #fff;
+  }
+
+#id_top_header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 0px;
+   
+    }
+
+  #contac{
+    font-family: 'League Gothic', sans-serif;
+    font-size: 22px;
+
+  }
+
+  #top_menu li {
+    font-family: 'League Gothic', sans-serif;
+    list-style: none;
+    font-size: 22px;
+    text-align: right;
+    
+  }
+
+  #top_menu li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  #top_menu li a:hover {
+    color: #fd6b23;
+  }
+
+ /** Header **/
+
+  header{
+    display: grid;
+    justify-content: center;
+  }
+
+  #div_header {
+    display: flex;
+  }
+
+  .brand {
+    padding: 0% 2%;
+  }
+
+  .brand h1{
+    font-family: 'League Gothic', sans-serif;
+    font-size: xxx-large;
+  }
+
+  nav{
+    display: inline-flex;
+    align-items: center;
+  }
+
+  nav li {
+    font-family: 'League Gothic', sans-serif;
+    list-style: none;
+    padding: 20px;
+    font-size: 22px;
+  }
+
+  nav li a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  nav li a:hover {
+    color: #fd6b23;
+  }
+
+/** Hero **/
+#hero {
+        height: 450px;
+        background-color: #606060;
+        background-image: url(https://www.fabrique.com/media/original_images/post-it-ophangen_scrumpagina_DM7Tg6c.jpg.2984x1412_q70ss0_format-jpg_upscale.jpg);
+        background-size: cover;
+        background-blend-mode: multiply;
+        display: flex;
+        justify-content: center;
+      }
+
+#div_hero {    
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 2px;
+        grid-row-gap: 0px;
+        }
+
+ .hero_text {
+    font-family: 'League Gothic', sans-serif;
+    font-size: 28px;
+    color: #fff;
+  }
+
+  .hero_text h2 {
+    background-color: #000;
+  }
+
+  .hero_image img {
+    width: 100%;
+   
+  }
+
+  /** Experiencias **/
+
+  #experiencias{
+    display: grid;
+    justify-content: center;
+    margin-top: 2em;
+  }
+  #div_experiencias {    
+    display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: masonry;
+    }
+
+    .cart
+    {
+     
+    }
+
+    .cart img {
+      width: 100%;
+  }
+
+
+  /** Reponsive **/
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: #fff    
+    }
+
+    header{
+        display: block;
+        justify-content: center;
+      }
+
+      #div_header {
+        display: block;
+        align-items: center;
+      }         
+
+    nav{
+        display: block;
+      }
+  }
+  
